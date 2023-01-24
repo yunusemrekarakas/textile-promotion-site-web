@@ -1,0 +1,83 @@
+.Products .Products-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid burlywood;
+    margin: 1rem;
+}
+
+.Products .Products-btn .btn button {
+    padding: 2rem;
+    width: 16rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: burlywood;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid burlywood;
+}
+
+.Products .Products-btn .btn button:hover {
+    color: white;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.Products .products-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid burlywood;
+    margin: 1rem;
+}
+
+.Products .products-box .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    ;
+}
+
+.Products .products-box .box .product-box {
+
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.Products .products-box .box .product-box img {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+.Products .products-box .box .product-box img:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Products .Products-btn .btn button {
+        padding: 2rem;
+        width: 10rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: burlywood;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid burlywood;
+    }
+
+    .Products .products-box .box .product-box img {
+        
+        padding: 1rem;
+        height: 14rem;
+        width: 7rem;
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "carousel-react-rcdev": "^0.0.5",
+    "react-router-dom": "^6.6.2"
+  }
+}

@@ -1,0 +1,125 @@
+.header{
+    display:flex;
+    background-color: black;
+   justify-content:space-between;
+}
+.header img{
+    height:6rem;
+    width:12rem;
+}
+.header-menu{
+    list-style:none;
+    display:flex;
+    gap:2rem;
+    align-items:center;
+    justify-content:space-between;
+    color:var(--gray);
+    text-transform:uppercase;
+}
+.header-menu a{
+    color:var(--gray);
+    text-decoration: none;
+    cursor:pointer;
+    
+}
+.header-menu a:hover{
+    color:burlywood;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+.header i{
+    font-size: 3rem;
+    color: burlywood;
+    position: relative;
+    top: 1.8rem;
+    right: 1rem;
+    cursor: pointer;
+    display: none;
+}
+.header .btn{
+    position:relative;
+    right:1.3rem;
+    top:2.2rem;
+    height:2.2rem;
+    border-radius:10px;
+    border:1px solid burlywood;
+    color:black;
+    background-color:white;
+    text-transform:uppercase;
+   
+}
+.header .btn:hover{
+    color:white;
+    background-color:burlywood;
+   cursor:pointer;
+}
+.header .bars{
+    background: burlywood;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    align-self: center;
+    padding: 1rem;
+    display: none;
+    z-index: 1000000;
+    border-radius: 0px 0px 50px 50px;
+}
+.header .bars ul li{
+    list-style: none;
+    border-top: 1x solid white;
+    border-bottom: 1px solid white;
+    padding: 0.3rem;
+}
+.header .bars ul li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.header .bars ul li a:hover{
+    letter-spacing: 5px;
+    transition: all 0.1s ease;
+}
+.header .bars ul li .btn{
+    position:relative;
+    left: 0;
+    top:0;
+    height: 3rem;
+    width: 8rem;
+    border-radius:10px;
+    border:1px solid burlywood;
+    color:black;
+    background-color:white;
+    text-transform:uppercase;
+}
+.header .bars ul li .btn:hover{
+    color:burlywood;
+    background-color:black;
+   cursor:pointer;
+}
+.header .bars div{
+    padding: 1rem;
+    margin-right: 3rem;
+}
+@media screen and (max-width: 768px) {
+    .header-menu{
+        display:none;
+    }
+    .header .btn{
+        display: none;
+    }
+    .bars ul li .btn{
+        display: block;
+    }
+    .header i{
+        display: block;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .header .bars{
+        display: none;
+    }
+  }
+ 
